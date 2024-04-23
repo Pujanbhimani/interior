@@ -1,0 +1,163 @@
+{
+    "service": [
+        {
+            "id": 1,
+            "title": "Proect Plan",
+            "description": "There are many variations of the passages of lorem Ipsum from available, majority."
+        },
+        {
+            "id": 2,
+            "title": "Interior wok",
+            "description": "There are many variations of the passages of lorem Ipsum from available, majority."
+        },
+        {
+            "id": 3,
+            "title": "Realization",
+            "description": "There are many variations of the passages of lorem Ipsum from available, majority."
+        }
+    ],
+    "testimonial": [
+        {
+            "id": 1,
+            "peopleName": "Nattasha mith",
+            "countryName": "sydney, USA",
+            "testimonialDetail": "There are many variations of the passages of lorem Ipsum from available, majority.",
+            "testimonialImg": "./img/testimonial.png"
+        },
+        {
+            "id": 2,
+            "peopleName": "Raymond aglario",
+            "countryName": "sydney, New york",
+            "testimonialDetail": "There are many variations of the passages of lorem Ipsum from available, majority.",
+            "testimonialImg": "./img/testimonial-2.png"
+        },
+        {
+            "id": 3,
+            "peopleName": "benny roll",
+            "countryName": "sydney, New york",
+            "testimonialDetail": "There are many variations of the passages of lorem Ipsum from available, majority.",
+            "testimonialImg": "./img/testimonial-3.png"
+        }
+    ],
+    "clientLogo": [
+        {
+            "id": 1,
+            "clientImg": "./img/clientLogo-1.svg"
+        },
+        {
+            "id": 2,
+            "clientImg": "./img/clientLogo-2.svg"
+        },
+        {
+            "id": 3,
+            "clientImg": "./img/clientLogo-3.svg"
+        },
+        {
+            "id": 4,
+            "clientImg": "./img/clientLogo-4.svg"
+        },
+        {
+            "id": 5,
+            "clientImg": "./img/clientLogo-5.svg"
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "projectName": "Modern Kitchan",
+            "projectCatagory": "Decor / Artchitecture",
+            "projectImg": "./img/project-1.png"
+        },
+        {
+            "id": 2,
+            "projectName": "Modern Kitchan",
+            "projectCatagory": "Decor / Artchitecture",
+            "projectImg": "./img/project-2.png"
+        },
+        {
+            "id": 3,
+            "projectName": "Modern Kitchan",
+            "projectCatagory": "Decor / Artchitecture",
+            "projectImg": "./img/project-3.png"
+        },
+        {
+            "id": 4,
+            "projectName": "Modern Kitchan",
+            "projectCatagory": "Decor / Artchitecture",
+            "projectImg": "./img/project-4.png"
+        }
+    ],
+    "blog": [
+        {
+            "id": 1,
+            "blogCatg": "Kitchan Design",
+            "blogName": "Let’s Get Solution For Building Construction Work",
+            "blogDate": "26 December,2022 ",
+            "blogImg": "./img/blog.png"
+        },
+        {
+            "id": 2,
+            "blogCatg": "Living Design",
+            "blogName": "Low Cost Latest Invented Interior Designing Ideas.",
+            "blogDate": "26 December,2022 ",
+            "blogImg": "./img/blog-1.png"
+        },
+        {
+            "id": 3,
+            "blogCatg": "Interior Design",
+            "blogName": "Best For Any Office & Business Interior Solution",
+            "blogDate": "26 December,2022 ",
+            "blogImg": "./img/blog-2.png"
+        }
+    ],
+    "wahtWeDo": [
+        {
+            "id": "a",
+            "wahtWeDoTitle": "What We Do",
+            "wahtWeDoDesc": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal-less normal.",
+            "wahtWeDoImg": "../img/wahtWeDo.png"
+        },
+        {
+            "id": "b",
+            "wahtWeDoTitle": "The End Result",
+            "wahtWeDoDesc": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.",
+            "wahtWeDoImg": "../img/wahtWeDo-1.png"
+        }
+    ],
+    "teamProfile": [
+        {
+            "id": 1,
+            "teamMemberName": "nattasha julie",
+            "teamCatgCountry": "Design, Australia",
+            "teamNumber": "+1 (378) 400-1234",
+            "teamEmail": "julie@email.com",
+            "teamImg": "../img/team.png"
+        },
+        {
+            "id": 2,
+            "teamMemberName": "nattasha julie",
+            "teamCatgCountry": "Design, Australia",
+            "teamNumber": "+1 (378) 400-1234",
+            "teamEmail": "julie@email.com",
+            "teamImg": "../img/team-1.png"
+        },
+        {
+            "id": 3,
+            "teamMemberName": "nattasha julie",
+            "teamCatgCountry": "Design, Australia",
+            "teamNumber": "+1 (378) 400-1234",
+            "teamEmail": "julie@email.com",
+            "teamImg": "../img/team-2.png"
+        },
+        {
+            "id": 4,
+            "teamMemberName": "nattasha julie",
+            "teamCatgCountry": "Design, Australia",
+            "teamNumber": "+1 (378) 400-1234",
+            "teamEmail": "julie@email.com",
+            "teamImg": "../img/team.png"
+        }
+    ]
+   
+    
+}

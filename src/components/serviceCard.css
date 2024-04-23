@@ -1,0 +1,24 @@
+
+.design-work {
+	margin: 150px 0;
+}
+
+.design-work h5{
+	font-size: 25px;
+}
+.design-work p {
+	font-size: 22px;
+	margin: 10px 0 30px 0;
+}
+
+.design-work button {
+	font-weight: 600;
+	font-size: 1rem;
+    color: #4D5053;
+}
+
+@media (max-width:767px){
+    .design-work {
+		margin: 50px 0 0 0;
+	}
+}

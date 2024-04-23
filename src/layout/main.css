@@ -1,0 +1,127 @@
+.main-title {
+    font-size: 50px;
+	line-height: 60px;
+	text-align: center;
+}
+.main-desc{
+	text-align: center;
+    font-size: 22px;
+    margin-block:10px 90px; 
+	max-width: 800px;
+	margin-inline: auto;
+}
+
+
+/* About Us Section Start */
+.aboutUs .main-title{
+    max-width: 450px;
+	text-align: left;
+}
+.aboutUs .aboutUs-detail {
+	padding-right: 70px;
+}
+
+.aboutUs .aboutUs-detail .aboutus-desc {
+	font-size: 22px;
+	line-height: 33px;
+	padding: 40px 0;
+}
+
+.aboutUs .aboutUs-detail .call-sec {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+}
+
+.aboutUs .aboutUs-detail .call-sec .call-img {
+	background: #F4F0EC;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	width: 90px;
+	height: 90px;
+}
+
+.aboutUs .aboutUs-detail .call-sec span {
+	display: block;
+	color: #4D5053;
+}
+
+.aboutUs .aboutUs-detail .call-sec .call-num {
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.aboutUs .aboutUs-detail .call-sec .call-text {
+	font-size: 1.275rem;
+}
+
+.aboutUs .aboutUs-detail .btn-default {
+	margin-top: 45px;
+}
+
+.aboutUs .aboutUs-img {
+	height: 650px;
+	overflow: hidden;
+	border-bottom-left-radius: 123px;
+	border-top-right-radius: 300px;
+}
+
+.aboutUs .aboutUs-img img {
+	object-fit: cover;
+}
+/* About Us Section End */
+
+
+/* Testimonial Section Start */
+.testimonial{
+    background: #F4F0EC;
+    border-radius: 50px;
+    padding: 88px 25px;
+    margin-block:200px 10px;
+}
+
+.testimonial .main-title{
+    text-align: center;
+    margin-inline:auto;
+    max-width: 550px;
+    margin-bottom: 38px;
+}
+/* Testimonial Section End */
+
+
+/* Client Logo Section End */
+.client-logo{
+    display: flex;
+    justify-content: center;;
+    gap:100px;
+    margin-block: 150px;
+}
+/* Client Logo Section End */
+
+
+
+/* Project Section Start */
+.project-sec .main-title{
+    text-align: center; 
+}
+/* Project Section End */
+
+
+
+/* Project Section End */
+/* Project Section End */
+
+
+@media (max-width:767px){
+    .main-title{
+		font-size: 2rem;
+	}
+
+	.main-banner .banner-content {
+		padding: 20px;
+		transform: translate(0, -50%);
+	}
+}

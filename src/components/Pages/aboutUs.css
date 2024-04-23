@@ -1,0 +1,208 @@
+.quotes-sec .quotes-block {
+    text-align: center;
+    padding: 55px 25px;
+    max-width: 635px;
+    margin-inline: auto;
+    margin-block:120px;
+    border: 10px solid #E7E7E7;
+    border-radius: 70px;
+}
+.quotes-sec .quotes-name{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.quotes-desc{
+    font-size: 35px;
+    font-style: italic;
+    margin-block:27px 34px;
+}
+
+/* What we do Section Strat */
+
+.wahtWeDo-sec .wahtWeDo-block{
+    display: flex;
+    margin-bottom: 70px;
+    align-items: center;
+}
+.wahtWeDo-sec .wahtWeDo-block:nth-child(even){
+    flex-direction: row-reverse;
+}
+.wahtWeDo-sec .wahtWeDo-block > div{
+    width: 45%;
+}
+.wahtWeDo-sec .wahtWeDo-block .wahtWeDo-img-block{
+width: 55%;
+}
+.wahtWeDo-sec .wahtWeDo-block:nth-child(even) .wahtWeDo-detail{
+    padding-left: 100px
+}
+.wahtWeDo-sec .wahtWeDo-block:nth-child(odd) .wahtWeDo-detail{
+    padding-right: 100px
+}
+.wahtWeDo-sec .wahtWeDo-block .wahtWeDo-title{
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.wahtWeDo-sec .wahtWeDo-block .wahtWeDo-desc{
+    font-size: 22px;
+    margin-block:20px 40px;
+    -webkit-line-clamp: 4;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+}
+.wahtWeDo-sec .wahtWeDo-block .wahtWeDo-img-block img{
+    width: 100%;
+    border-radius: 70px
+}
+
+/* Team Section Start */
+.team-sec{
+    background: #F4F0EC;
+    padding-block:140px;
+    margin-block:100px;
+}
+.team-sec .main-title{
+    margin-bottom: 40px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+.team-sec .team-block{
+    position: relative;
+    overflow: hidden;
+}
+.team-sec .team-block .team-img img{
+    width: 100%;
+    border-radius: 30px;
+}
+.team-sec .team-block .team-content{
+    position: absolute;
+    bottom: -100%;
+    background: rgba(255,255,255,1);
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    text-align: center;
+    color: #292F36;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition:  all 0.2s ease-in-out;
+    bottom: -100%;
+    left: -100%
+}
+.team-sec .team-block:hover .team-content{
+    bottom: 0;
+    left: 0;
+}
+.team-sec .team-block .team-content .team-member-name{
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+}
+.team-sec .team-block .team-content p{
+    margin-bottom: 5px;
+}   
+.team-sec .team-icon-block{
+    display: flex;
+    justify-content: center;
+    gap:35px;
+    margin-block:40px; 
+}
+/* Team Section End */
+
+/* Main Box Start */
+
+.main-box .main-title{
+    margin-bottom: 60px;
+    margin: 0 auto;
+    max-width: 650px;
+}
+.main-box .form-block input, .main-box .form-block textarea{
+    border: 0;
+    border-bottom: 1px solid #000000;
+    box-shadow: none;
+    outline: none;
+}
+.main-box .form-block {
+    display: flex;
+    flex-direction: column
+}
+.main-box .form-block label{
+    font-size: 22px;
+}
+.main-box .mail-box-form{
+    max-width: 700px;
+    margin-inline:auto; 
+    margin-top: 70px
+}
+.main-box .form-block.col-md-12{
+    margin-block: 70px;
+}
+.main-box .submit-btn .btn{
+    margin-inline:auto; 
+}
+
+/* Main Box End */
+
+.wahtWeDo-main-block .wahtWeDo-img{
+    width: 100%;
+    margin:  100px auto 20px;
+    display: block;
+    border-radius: 40px;
+}
+.wahtWeDo-main-block .wahtWeDo-title{
+    text-align: center;
+    position: relative;
+    margin-block: 50px 50px;
+}
+
+.wahtWeDo-main-block .wahtWeDo-title:after{
+    content: "";
+    width:150px;
+    height: 3px;
+    background: #292F36;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+.wahtWeDo-main-block .wahtWeDo-desc{
+    font-size: 22px;
+    text-align: justify;
+}
+
+@media (max-width:992px){
+    .wahtWeDo-sec .wahtWeDo-block .wahtWeDo-desc {
+        font-size: 18px;
+        margin-block: 20px;
+    } 
+    .wahtWeDo-sec .wahtWeDo-block .wahtWeDo-title {
+        font-size: 30px;
+    }
+    .wahtWeDo-sec .wahtWeDo-block:nth-child(odd) .wahtWeDo-detail {
+        padding-right: 50px;
+    }
+    .wahtWeDo-sec .wahtWeDo-block:nth-child(even) .wahtWeDo-detail {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width:767px){
+    .wahtWeDo-sec .wahtWeDo-block , .wahtWeDo-sec .wahtWeDo-block:nth-child(even) {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .wahtWeDo-sec .wahtWeDo-block > div {
+        width: 100% !important;
+    }
+    .wahtWeDo-sec .wahtWeDo-block:nth-child(odd) .wahtWeDo-detail, .wahtWeDo-sec .wahtWeDo-block:nth-child(even) .wahtWeDo-detail{
+        padding-inline: 0;
+    }
+}
+
+/* What we do Section End */
